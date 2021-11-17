@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETO 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/mensajes.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <h1>RETO 2 <a class="titulo_lib" href="">MENSAJES</a></h1>
+    <div id="resultado">    </div>
+        <button class="btn-consultar" onclick="traerInformacion()"><i class="fas fa-eye"></i> CONSULTAR</button>
+    <div>
+        <input type="number"  id="id"  placeholder="id"><br><br>
+        <input type="text" id="messagetext"  placeholder="messagetext"><br><br>
+    </div>
+
+    <button class="btn_guardar" onclick="guardarInformacion()"><i class="far fa-save"></i>  Guardar!</button>
+    <button class="btn_actualizar" onclick="editarInformacion()"><i class="fas fa-pen-square"></i>  Actualizar</button>
+
+
+    <div>
+        <h4><a class="a_clientes" href="clientes.html"><i class="fas fa-user-friends"></i> Ver clientes</a></h4>
+    </div>
+    <div>
+        <h4><a class="a_clientes" href="index.html"><i class="fas fa-book"></i> Ver Libros</a></h4>
+    </div>
+</body>
+</html>
